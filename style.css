@@ -889,6 +889,12 @@
     line-height: 1;
     margin-bottom: 0.5rem;
   }
+  
+  .portrait-img {
+
+	object-fit: cover;
+	border-radius: 12px;
+  }
 
   .dlaczego-item p {
     font-size: var(--text-sm);
@@ -908,39 +914,6 @@
     max-width: 1000px;
     margin-bottom: var(--space-xl);
     line-height: 1.8;
-  }
-
-  .marki-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-  }
-
-  .marka-item {
-    flex: 0 0 calc(100% / 6);
-    padding: 1.8rem 1rem;
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: var(--text-quote);
-    font-weight: 400;
-    color: var(--cream-50);
-    border: 1px solid var(--gold-border-faint);
-    margin: -1px 0 0 -1px;
-    transition: color var(--transition-fast), background var(--transition-fast);
-    letter-spacing: 0.05em;
-  }
-
-  .marka-item:hover {
-    color: var(--gold-light);
-    background: var(--gold-glow);
-  }
-
-  .marki-more {
-    margin-top: 2rem;
-    font-size: var(--text-sm);
-    font-weight: 300;
-    color: var(--cream-50);
-    font-style: italic;
   }
 
   /* ---- PORADY ---- */
