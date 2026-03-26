@@ -785,17 +785,6 @@
     margin-bottom: var(--space-md);
   }
 
-  .omnie-story p:first-of-type::first-letter {
-    font-size: 3.5rem;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 600;
-    color: var(--gold);
-    float: left;
-    line-height: 0.8;
-    margin-right: 0.12em;
-    margin-top: 0.1em;
-  }
-
   .omnie-values {
     position: sticky;
     top: 6rem;
