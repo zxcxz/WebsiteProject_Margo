@@ -1,0 +1,1 @@
+http://margaretta-zegarmistrz.pl/* https://margaretta-zegarmistrz.pl/:splat 301!
